@@ -1,8 +1,7 @@
-import React from "react";
-import { ButtonCounter } from "./components/ButtonCounter";
+import { TodoList } from "./components/TodoList";
 
 export const App = () => {
-  const name: string = "Hello React Button";
+  const name: string = "Hello from React v18";
 
   const onChildClicked = (e: number) => {
     console.warn("callback from parent triggered", e);
@@ -10,14 +9,7 @@ export const App = () => {
 
   return (
     <div className="p-2">
-      <h1>React TSX Starter</h1>
-      <div>containing:</div>
-      <ul>
-        <li>React</li>
-        <li>Twitter Bootstrap</li>
-        <li>Basic Functional Components App and ButtonCounter</li>
-      </ul>
-      <ButtonCounter name={name} onClicked={e => onChildClicked(e)} />
+      <TodoList />
     </div>
   );
 };
