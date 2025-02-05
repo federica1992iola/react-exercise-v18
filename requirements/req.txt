@@ -1,0 +1,26 @@
+Creare un componente React senza l'uso di framework esterni, basato su React 17, che gestisca una lista di elementi con le seguenti funzionalità:
+
+1️⃣ gestione dell'input
+Il componente deve contenere un input di testo per consentire all'utente di inserire nuovi testi.
+L'input deve svuotarsi automaticamente dopo l'aggiunta di un nuovo elemento.
+2️⃣ gestione della lista di testi
+L'input deve permettere di aggiungere nuovi testi ad una lista.
+Ogni elemento della lista deve essere rappresentato da un oggetto con la seguente struttura:
+{
+  title: "example",
+  completed: false
+}
+Il componente deve renderizzare dinamicamente la lista degli elementi.
+3️⃣ Rimozione di un elemento
+Ogni elemento della lista deve poter essere eliminato tramite un pulsante "Rimuovi".
+4️⃣ Contatore degli elementi
+Deve essere presente un contatore che mostri il numero totale degli elementi presenti nella lista.
+Il contatore deve aggiornarsi automaticamente ogni volta che un elemento viene aggiunto o rimosso.
+5️⃣ Aggiornare property completed
+Ogni testo della lista deve avere un pulsante "Completa" che aggiorna la proprietà completed dell'oggetto associato a true.
+Se un elemento è completato, il suo testo deve essere visualizzato con barratura orizzontale posta nel mezzo del testo.
+Ogni volta che un oggetto viene modificato settando completed a true deve essere eseguito un console.log dell'intero array di oggetti aggiornato.
+6️⃣ Struttura del codice
+Il componente deve essere stateless ad eccezione della gestione dello stato con useState.
+Deve essere scritto in React 17 con TypeScript senza utilizzare librerie di gestione dello stato avanzate come Redux.
+Deve essere formattato e organizzato in modo leggibile e manutenibile.
