@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 
-// ✅ Definizione del tipo per ogni elemento della lista
 interface ListItem {
   title: string;
   completed: boolean;
