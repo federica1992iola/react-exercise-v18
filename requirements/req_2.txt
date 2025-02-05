@@ -1,0 +1,20 @@
+Creare un componente React senza l'uso di framework esterni, basato su React 17, che gestisca una lista di elementi con le seguenti funzionalità:
+
+creazione di una struttura dati tipo dizionario che consenta di gestire le voci 
+in un dizionario. Ogni voce è composta da due elementi: una parola (stringa) 
+e una descrizione (stringa).
+
+Funzionalità principali richieste:
+1. Ogni parola nel dizionario ha una descrizione associata. Per aggiungere una nuova voce nel dizionario 
+    il componente dovrà associare una parola a una descrizione. E' prevista anche la
+    rimozione di una voce (parola + descrizione) dal dizionario.
+    La struttura dovrà supportare l'operazione di aggiunta, rimozione e recupero delle voci.
+2. L'interfaccia utente dovrà consentire l'inserimento di una parola 
+    e della descrizione associata tramite due input.
+    Un pulsante di aggiunta permetterà di aggiungere la parola e la sua descrizione nel dizionario.
+    Le voci aggiunte dovranno essere visualizzabili in una lista.
+    Ogni voce dovrà essere accompagnata da un pulsante per la rimozione.
+3. Deve essere previsto un controllo per verificare che l'utente abbia inserito entrambi i valori (parola e descrizione) prima di consentire l'aggiunta nel dizionario. 
+    In caso contrario l'utente deve essere avvisato.
+
+
